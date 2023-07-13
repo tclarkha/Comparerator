@@ -1,0 +1,3 @@
+([('spreadertest',
+   '/Users/tylerclark/Documents/Spreader/dist/spreadertest',
+   'EXECUTABLE')],)
