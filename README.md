@@ -1,4 +1,4 @@
-# comparerator
+# Comparerator
 Employee Roster Comparison Tool
 
 This tool allows you to compare two employee rosters and find out which employees have joined, left, or made changes to their information.
