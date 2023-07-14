@@ -1,3 +1,0 @@
-([('comparerator',
-   '/Users/tylerclark/Documents/Spreader/dist/comparerator',
-   'EXECUTABLE')],)
