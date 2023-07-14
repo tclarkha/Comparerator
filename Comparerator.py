@@ -23,7 +23,7 @@ class EmployeeRoster:
             "name_changes": self.create_scrollable_text(master, "Name changes:", 4, 3),
         }
 
-                # Custom menu frame
+        # Custom menu frame
         self.menu_frame = Frame(master, bg="gainsboro")
         self.menu_frame.grid(row=0, column=0, columnspan=4, sticky="nsew")
 
@@ -37,8 +37,6 @@ class EmployeeRoster:
 
         self.label = Label(master, text="Select two rosters to compare", font=("Apple", 16, "bold"), bg="White Smoke")
         self.label.grid(row=1, column=0, columnspan=4, pady=10)
-
-
 
     def create_scrollable_text(self, master, label_text, row, column):
         label = Label(master, text=label_text, font=("Apple", 14, "bold"), bg="gainsboro")
@@ -163,12 +161,9 @@ class EmployeeRoster:
                 text_widget.delete(1.0, "end")
                 text_widget.insert("end", f"Error: {str(e)}")
 
-
     def write_to_text_widget(self, widget_key, text):
         label, text_widget = self.widgets[widget_key]
         text_widget.insert("end", text)
-
-
 
 root = Tk()
 root.geometry('1420x815')
