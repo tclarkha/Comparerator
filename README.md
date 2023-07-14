@@ -41,6 +41,7 @@ pip install -r requirements.txt
 Run the script:
 
 sh
-python employee_roster.py
-Note: This program is tested on Python 3.8 and pandas 1.2.4. For the user interface, Tkinter which is the standard Python interface to the Tk GUI toolkit, is used.
+comparerator.py
+
+Note: This program is tested on Python 3.8 and pandas 1.2.4. For the user interface, Tkinter which is the standard Python interface to the Tk GUI toolkit is used.
 
