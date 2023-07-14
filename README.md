@@ -10,7 +10,7 @@ Features
 
 # How to use
 Click the Select files button and choose two CSV files to compare. The CSV files should have 'first name', 'last name', and 'email' columns.
-Make sure to select the OLD roster first, and the NEW roster second. 
+Make sure to select the **OLD roster first, and the NEW roster second.** 
 Click the Compare rosters button. 
 
 The program will then compare the two rosters and display the following:
